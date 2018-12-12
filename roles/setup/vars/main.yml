@@ -8,6 +8,7 @@ applications:
   - git
   - svn
   - packer
+  - awscli
 
 # homebrew cask applications
 cask_applications:
