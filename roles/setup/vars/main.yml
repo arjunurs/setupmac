@@ -1,0 +1,15 @@
+---
+# list of applications to install
+general:
+  local_home: "{{ lookup('env','HOME') }}"
+
+# homebrew applications
+applications:
+  - git
+  - svn
+  - packer
+
+# homebrew cask applications
+cask_applications:
+  - virtualbox
+
